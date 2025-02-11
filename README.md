@@ -31,3 +31,4 @@ Bu proje, Next.js ve TypeScript kullanılarak geliştirilmiş modern bir uçak r
 ## 📱 Ekran Görüntüleri
 
 ![Uçak Rezervasyon Sistemi Ana Ekran](images/image.jpg)
+![Uçak Rezervasyon Sistemi Ana Ekran](images/image-2.jpg)
