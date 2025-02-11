@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Uçak Rezervasyon Sistemi
 
-## Getting Started
+Bu proje, Next.js ve TypeScript kullanılarak geliştirilmiş modern bir uçak rezervasyon sistemidir. Kullanıcılar koltuk seçimi yapabilir, yolcu bilgilerini girebilir ve rezervasyon işlemlerini gerçekleştirebilir.
 
-First, run the development server:
+## 🚀 Özellikler
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- İnteraktif koltuk seçim arayüzü
+- Gerçek zamanlı koltuk durumu güncellemeleri
+- Yolcu bilgileri formu ve veri doğrulama
+- LocalStorage ile veri persistance
+- Responsive tasarım
+- Timeout kontrolü ve oturum yönetimi
+- Tooltip ile koltuk bilgisi gösterimi
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Teknolojiler
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- React Toastify
+- React Tooltip
+- LocalStorage API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Kullanım
 
-## Learn More
+1. Ana sayfada uçak yerleşim planından koltuk seçimi yapın
+2. Seçilen her koltuk için yolcu bilgilerini girin
+3. Tüm bilgiler doldurulduğunda rezervasyon otomatik olarak tamamlanır
+4. Seçilen koltuklar sistem tarafından kaydedilir ve sonraki kullanıcılar için dolu olarak görüntülenir
 
-To learn more about Next.js, take a look at the following resources:
+## 📱 Ekran Görüntüleri
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Uçak Rezervasyon Sistemi Ana Ekran](images/image.jpg)
